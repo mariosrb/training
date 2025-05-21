@@ -1,0 +1,24 @@
+
+p {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.1em;
+}
+
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 3em;
+  color: #a5b4fc
+}
+
+a {
+  color: black;
+}
+
+.important {
+  color: #a5b4fc;
+}
