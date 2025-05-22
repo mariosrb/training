@@ -1,11 +1,11 @@
 body {
-  /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
+  background-color: #1f2039;
 }
 
 a {
-  color: black;
+  color: #242424;
   text-decoration: none;
 }
 
@@ -20,31 +20,28 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
-p {
+h2 {
+  color: #f9f8ff;
+}
+
+p,
+li {
   font-size: 1.1em;
-  color: #F9F8FF;
+  color: #f9f8ff;
 }
 
-ul, h2 {
-	color: #F9F8FF;
-}
-
-.header a {
-	color: #242424;
-	background-color: white;
-}
-
-.footer a {
-	color: #242424;
-	background-color: white;
-}
-
-.middle {
-	background-color: #1F2039;
-	background-position: center;
+.entete,
+.pied-de-page {
+  background-color: white;
 }
 
 .cta {
-	background: linear-gradient(#8e86b5, #acaeed);
-	color: white;
+  background: linear-gradient(#8e86b5, #acaeed);
+  border-radius: 50px;
+  color: white;
+}
+
+.mid {
+	border-right: 1px solid #8e86b5;
+	border-bottom: 1px solid #8e86b5;
 }
